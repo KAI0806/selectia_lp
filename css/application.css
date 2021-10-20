@@ -1,0 +1,171 @@
+@charset "UTF-8";
+html{
+    font-size: 0.5208vw;
+    scroll-behavior: smooth;
+}
+
+body, h1, h2, h3, h4, h5, p, ul{
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    font-weight: 300;
+    line-height: 100%;
+}
+
+h3{
+    font-weight: 300;
+    line-height: 100%;
+}
+
+body{
+    font-family: '小塚ゴシック Pro','Kozuka Gothic Pro',sans-serif;
+}
+
+ul, li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    line-height: 100%;
+}
+
+p{
+    color: #333333;
+    font-size: 1.8rem;
+}
+
+header{
+    background: #F5F5F5;
+    height: 7.8rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+}
+
+header .wrap{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .wrap > div{
+    width: 50%;
+    height: calc(100% - .35rem);
+}
+
+header .wrap .header_left{
+    border-bottom: .7rem solid #8ABCD7;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 2.5%;
+}
+
+header .wrap .header_left img{
+    height: 4.536rem;
+}
+
+header .wrap .header_right{
+    border-bottom: 7px solid #1D2A56;
+    padding: 0 2.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .wrap .header_right{
+    font-size: 2.2rem;
+}
+
+header .wrap .header_right nav{
+    width: 60%;
+}
+
+header .wrap .header_right nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .wrap .header_right nav ul li a{
+    color: #1D2A56;
+}
+
+header .wrap .header_right div{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .wrap .header_right div a{
+    color: white;
+    padding: 1.2rem 2.4rem;
+    border-radius: 1rem;
+}
+
+header .wrap .header_right div a:first-child{
+    background: #1D2A56;
+}
+
+header .wrap .header_right div a:nth-child(2){
+    background: #8ABCD7;
+}
+
+main{
+    padding-top: 7.8rem;
+}
+
+.ctr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 54%;
+    margin: auto;
+}
+
+.ctr div{
+    width: 36.2rem;
+    height: 7.4rem;
+    position: relative;
+}
+
+.ctr div:hover a{
+    top: -.05rem;
+    left: -.06rem;
+    transition: all .2s ease-in-out;
+}
+
+.ctr div:first-child{
+    border: .4rem solid #1D2A56;
+}
+
+.ctr div:nth-child(2){
+    border: .4rem solid #8ABCD7;
+}
+
+.ctr div a{
+    position: absolute;
+    top: .8rem;
+    left: 1rem;
+    display: block;
+    text-align: center;
+    padding: 2.75rem 0;
+    font-size: 2rem;
+    width: 36.4rem;
+    color: white;
+    transition: all .2s ease-in-out;
+}
+
+.ctr div:first-child a{
+    background: #1D2A56;
+}
+
+.ctr div:nth-child(2) a{
+    background: #8ABCD7;
+}

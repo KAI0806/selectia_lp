@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="343" height="343" viewBox="0 0 343 343">
+  <defs>
+    <filter id="楕円形_351" x="0" y="0" width="343" height="343" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <circle id="楕円形_350" data-name="楕円形 350" cx="156.5" cy="156.5" r="156.5" transform="translate(343 1268)" opacity="0.228"/>
+    </clipPath>
+  </defs>
+  <g id="グループ_2391" data-name="グループ 2391" transform="translate(-279 -2512)">
+    <g id="グループ_2226" data-name="グループ 2226" transform="translate(-76 1234)">
+      <g transform="matrix(1, 0, 0, 1, 355, 1278)" filter="url(#楕円形_351)">
+        <circle id="楕円形_351-2" data-name="楕円形 351" cx="156.5" cy="156.5" r="156.5" transform="translate(10 10)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Business_challenge-amico_1_" data-name="Business challenge-amico (1)" transform="translate(331.056 2550.113)">
+      <g id="freepik--Shadows--inject-132" transform="translate(26.074 136.23)">
+        <path id="freepik--shadow--inject-132" d="M52.564,357.123l135.15-78.031L165.8,266.44,30.65,344.471Z" transform="translate(-30.65 -266.44)" fill="#e0e0e0"/>
+      </g>
+      <g id="freepik--Arrow--inject-132" transform="translate(37.031 29.86)">
+        <g id="freepik--arrow--inject-132-2" data-name="freepik--arrow--inject-132" transform="translate(0)">
+          <path id="パス_4780" data-name="パス 4780" d="M117.008,359.956,135.271,370.5l-19.7-18.376L97.31,341.58Z" transform="translate(-78.296 -201.425)" fill="#284192"/>
+          <path id="パス_4781" data-name="パス 4781" d="M97.31,341.58l19.7,18.376L135.271,370.5l-19.7-18.376Z" transform="translate(-78.296 -201.425)" opacity="0.3"/>
+          <path id="パス_4782" data-name="パス 4782" d="M211.46,236.2l18.263,10.543,30.794,29.72L242.254,265.92Z" transform="translate(-141.122 -143.426)" fill="#284192"/>
+          <path id="パス_4783" data-name="パス 4783" d="M211.46,236.2l18.263,10.543,30.794,29.72L242.254,265.92Z" transform="translate(-141.122 -143.426)" fill="#1d2a56" opacity="0.3"/>
+          <path id="パス_4784" data-name="パス 4784" d="M55.02,381.609l18.263,10.543L92.3,352.128,74.034,341.58Z" transform="translate(-55.02 -201.425)" fill="#1d2a56"/>
+          <path id="パス_4785" data-name="パス 4785" d="M145.91,297.478,162.02,312.5l31.626-65.761L175.382,236.2Z" transform="translate(-105.044 -143.426)" fill="#1d2a56"/>
+          <path id="パス_4786" data-name="パス 4786" d="M285.11,174.514l15.943,15.39L349.077,89.474,330.814,78.93Z" transform="translate(-181.658 -56.867)" fill="#1d2a56"/>
+          <path id="パス_4787" data-name="パス 4787" d="M372.48,48.667l30.767,17.764-2.14-36.572Z" transform="translate(-229.744 -29.86)" fill="#1d2a56"/>
+        </g>
+      </g>
+      <g id="freepik--speech-bubble--inject-132" transform="translate(18.354 29.86)">
+        <g id="freepik--speech-bubble--inject-132-2" data-name="freepik--speech-bubble--inject-132">
+          <g id="freepik--speech-bubble--inject-132-3" data-name="freepik--speech-bubble--inject-132">
+            <path id="パス_4788" data-name="パス 4788" d="M246.627,67.456a47.682,47.682,0,1,0,0,67.511A47.682,47.682,0,0,0,246.627,67.456Zm-64.486,64.469a30.722,30.722,0,1,1,0,.033Z" transform="translate(-165.268 -53.53)" fill="#1d2a56"/>
+            <path id="パス_4789" data-name="パス 4789" d="M241.956,130.284a43.44,43.44,0,1,1,0-61.427A43.44,43.44,0,0,1,241.956,130.284Z" transform="translate(-163.639 -51.855)" fill="#fff"/>
+          </g>
+          <path id="パス_4791" data-name="パス 4791" d="M184.09,69.07l1.94,19.27a14.8,14.8,0,0,0,29.4,0l1.957-19.27Z" transform="translate(-153.142 -43.519)" fill="#1d2a56"/>
+          <path id="パス_4792" data-name="パス 4792" d="M196.185,88.58a4.933,4.933,0,0,0-5.015,4.933h10.013a4.933,4.933,0,0,0-5-4.933Z" transform="translate(-148.581 -30.951)" fill="#1d2a56"/>
+          <path id="パス_4793" data-name="パス 4793" d="M206.119,94.915H189.677a1.167,1.167,0,0,1-1.167-1.167h0a1.167,1.167,0,0,1,1.167-1.167h16.442a1.167,1.167,0,0,1,1.167,1.167h0A1.167,1.167,0,0,1,206.119,94.915Z" transform="translate(-150.295 -28.374)" fill="#1d2a56"/>
+          <path id="パス_4794" data-name="パス 4794" d="M211.037,95H189.021a3.831,3.831,0,0,0-3.831,3.831h29.678A3.831,3.831,0,0,0,211.037,95Z" transform="translate(-152.434 -26.815)" fill="#1d2a56"/>
+          <path id="パス_4795" data-name="パス 4795" d="M191.353,94.015h-.74a11.3,11.3,0,0,1-10.885-8.32l-2.516-9.224a3.8,3.8,0,0,1,3.667-4.8h6.577l.345,3.288h-6.939a.575.575,0,0,0-.411.2.526.526,0,0,0,0,.444l2.516,9.24a7.958,7.958,0,0,0,6.922,5.837,16.637,16.637,0,0,0,1.463,3.338Z" transform="translate(-157.66 -41.844)" fill="#1d2a56"/>
+          <path id="パス_4796" data-name="パス 4796" d="M202.67,94.015h.74a11.3,11.3,0,0,0,10.885-8.32l2.516-9.224a3.8,3.8,0,0,0-3.732-4.8H206.5l-.345,3.288h6.922a.576.576,0,0,1,.411.2.526.526,0,0,1,.082.444l-2.516,9.24a7.958,7.958,0,0,1-6.922,5.837A16.647,16.647,0,0,1,202.67,94.015Z" transform="translate(-141.173 -41.844)" fill="#1d2a56"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,191 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1452.796" height="195" viewBox="0 0 1452.796 195">
+  <defs>
+    <filter id="長方形_3533" x="358" y="17.082" width="182" height="98" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="長方形_3534" x="358" y="97.082" width="182" height="97" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="長方形_3533-2" x="177" y="17.082" width="182" height="98" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="長方形_3534-2" x="177" y="97.082" width="182" height="97" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="長方形_3533-3" x="539.001" y="17.082" width="182" height="98" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="長方形_3535" x="539.001" y="97.082" width="182" height="97" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-6"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="長方形_3533-4" x="720.001" y="17.082" width="182" height="98" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-7"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="長方形_3536" x="720.001" y="97.082" width="182" height="97" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-8"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="長方形_3533-5" x="901.001" y="17.082" width="181" height="98" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-9"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-9"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="長方形_3538" x="901.001" y="97.082" width="181" height="97" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-10"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-10"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="長方形_3533-6" x="1081.001" y="17.082" width="182" height="98" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-11"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-11"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="長方形_3539" x="1081.001" y="97.082" width="182" height="97" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-12"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-12"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="無料相談">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-13"/>
+      <feFlood flood-opacity="0.161" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-13"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="グループ_2542" data-name="グループ 2542" transform="translate(-240 -4617)">
+    <text id="プロジェクト_時系列" data-name="プロジェクト
+時系列" transform="translate(240 4671.582)" fill="#333" font-size="22" font-family="KozGoPro-Regular, Kozuka Gothic Pro"><tspan x="0" y="0">プロジェクト</tspan><tspan x="0" y="35">時系列</tspan></text>
+    <text id="サポート_時系列" data-name="サポート
+時系列" transform="translate(240 4751.582)" fill="#333" font-size="22" font-family="KozGoPro-Regular, Kozuka Gothic Pro"><tspan x="0" y="0">サポート</tspan><tspan x="0" y="35">時系列</tspan></text>
+    <rect id="長方形_3540" data-name="長方形 3540" width="2" height="57" transform="translate(389 4732.582)" fill="#1d2a56"/>
+    <rect id="長方形_3541" data-name="長方形 3541" width="2" height="57" transform="translate(389 4652.582)" fill="#1d2a56"/>
+    <rect id="長方形_3542" data-name="長方形 3542" width="1132" height="52" transform="translate(402 4693.582)" fill="#fff"/>
+    <g id="グループ_2448" data-name="グループ 2448" transform="translate(606.895 4640.082)">
+      <g transform="matrix(1, 0, 0, 1, -366.89, -23.08)" filter="url(#長方形_3533)">
+        <rect id="長方形_3533-7" data-name="長方形 3533" width="164" height="80" transform="translate(367 23.08)" fill="#fff"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -366.89, -23.08)" filter="url(#長方形_3534)">
+        <rect id="長方形_3534-3" data-name="長方形 3534" width="164" height="79" transform="translate(367 103.08)" fill="#f5f5f5"/>
+      </g>
+      <text id="目標の設定" transform="translate(34.106 46)" fill="#333" font-size="18" font-family="KozGoPro-Regular, Kozuka Gothic Pro"><tspan x="0" y="0">目標の設定</tspan></text>
+      <text id="販促方法" transform="translate(41.106 113)" fill="#fb297a" font-size="18" font-family="KozGoPro-Medium, Kozuka Gothic Pro" font-weight="500"><tspan x="0" y="0">販促方法</tspan></text>
+      <text id="提案します" transform="translate(43.106 139)" fill="#333" font-size="14" font-family="KozGoPro-Medium, Kozuka Gothic Pro" font-weight="500"><tspan x="0" y="0">提案します</tspan></text>
+    </g>
+    <g id="グループ_2500" data-name="グループ 2500" transform="translate(425.895 4640.082)">
+      <g transform="matrix(1, 0, 0, 1, -185.89, -23.08)" filter="url(#長方形_3533-2)">
+        <rect id="長方形_3533-8" data-name="長方形 3533" width="164" height="80" transform="translate(186 23.08)" fill="#fff"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -185.89, -23.08)" filter="url(#長方形_3534-2)">
+        <rect id="長方形_3534-4" data-name="長方形 3534" width="164" height="79" transform="translate(186 103.08)" fill="#f5f5f5"/>
+      </g>
+      <text id="ペルソナの設定" transform="translate(19.106 47)" fill="#333" font-size="18" font-family="KozGoPro-Regular, Kozuka Gothic Pro"><tspan x="0" y="0">ペルソナの設定</tspan></text>
+      <text id="顧客設定" transform="translate(46.106 113)" fill="#fb297a" font-size="18" font-family="KozGoPro-Medium, Kozuka Gothic Pro" font-weight="500"><tspan x="0" y="0">顧客設定</tspan></text>
+      <text id="提案します-2" data-name="提案します" transform="translate(47.106 139)" fill="#333" font-size="14" font-family="KozGoPro-Medium, Kozuka Gothic Pro" font-weight="500"><tspan x="0" y="0">提案します</tspan></text>
+    </g>
+    <g id="グループ_2449" data-name="グループ 2449" transform="translate(788.342 4640.082)">
+      <g transform="matrix(1, 0, 0, 1, -548.34, -23.08)" filter="url(#長方形_3533-3)">
+        <rect id="長方形_3533-9" data-name="長方形 3533" width="164" height="80" transform="translate(548 23.08)" fill="#fff"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -548.34, -23.08)" filter="url(#長方形_3535)">
+        <rect id="長方形_3535-2" data-name="長方形 3535" width="164" height="79" transform="translate(548 103.08)" fill="#f5f5f5"/>
+      </g>
+      <text id="事前の集客" transform="translate(35.659 46)" fill="#333" font-size="18" font-family="KozGoPro-Regular, Kozuka Gothic Pro"><tspan x="0" y="0">事前の集客</tspan></text>
+      <text id="広告施策" transform="translate(44.659 113)" fill="#fb297a" font-size="18" font-family="KozGoPro-Medium, Kozuka Gothic Pro" font-weight="500"><tspan x="0" y="0">広告施策</tspan></text>
+      <text id="サポートします" transform="translate(82.659 139)" fill="#333" font-size="14" font-family="KozGoPro-Medium, Kozuka Gothic Pro" font-weight="500"><tspan x="-49" y="0">サポートします</tspan></text>
+    </g>
+    <g id="グループ_2450" data-name="グループ 2450" transform="translate(968.854 4640.082)">
+      <g transform="matrix(1, 0, 0, 1, -728.85, -23.08)" filter="url(#長方形_3533-4)">
+        <rect id="長方形_3533-10" data-name="長方形 3533" width="164" height="80" transform="translate(729 23.08)" fill="#fff"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -728.85, -23.08)" filter="url(#長方形_3536)">
+        <rect id="長方形_3536-2" data-name="長方形 3536" width="164" height="79" transform="translate(729 103.08)" fill="#f5f5f5"/>
+      </g>
+      <text id="掲載の開始" transform="translate(30.147 46)" fill="#333" font-size="18" font-family="KozGoPro-Regular, Kozuka Gothic Pro"><tspan x="0" y="0">掲載の開始</tspan></text>
+      <text id="顧客対応" transform="translate(40.147 113)" fill="#fb297a" font-size="18" font-family="KozGoPro-Medium, Kozuka Gothic Pro" font-weight="500"><tspan x="0" y="0">顧客対応</tspan></text>
+      <text id="提案します-3" data-name="提案します" transform="translate(42.147 139)" fill="#333" font-size="14" font-family="KozGoPro-Medium, Kozuka Gothic Pro" font-weight="500"><tspan x="0" y="0">提案します</tspan></text>
+    </g>
+    <g id="グループ_2452" data-name="グループ 2452" transform="translate(1149.813 4640.082)">
+      <g transform="matrix(1, 0, 0, 1, -909.81, -23.08)" filter="url(#長方形_3533-5)">
+        <rect id="長方形_3533-11" data-name="長方形 3533" width="163" height="80" transform="translate(910 23.08)" fill="#fff"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -909.81, -23.08)" filter="url(#長方形_3538)">
+        <rect id="長方形_3538-2" data-name="長方形 3538" width="163" height="79" transform="translate(910 103.08)" fill="#f5f5f5"/>
+      </g>
+      <text id="掲載の中期" transform="translate(30.188 46)" fill="#333" font-size="18" font-family="KozGoPro-Regular, Kozuka Gothic Pro"><tspan x="0" y="0">掲載の中期</tspan></text>
+      <text id="改善施策" transform="translate(41.188 113)" fill="#fb297a" font-size="18" font-family="KozGoPro-Medium, Kozuka Gothic Pro" font-weight="500"><tspan x="0" y="0">改善施策</tspan></text>
+      <text id="サポートします-2" data-name="サポートします" transform="translate(78.188 139)" fill="#333" font-size="14" font-family="KozGoPro-Medium, Kozuka Gothic Pro" font-weight="500"><tspan x="-49" y="0">サポートします</tspan></text>
+    </g>
+    <g id="グループ_2453" data-name="グループ 2453" transform="translate(1330.324 4640.082)">
+      <g transform="matrix(1, 0, 0, 1, -1090.32, -23.08)" filter="url(#長方形_3533-6)">
+        <rect id="長方形_3533-12" data-name="長方形 3533" width="164" height="80" transform="translate(1090 23.08)" fill="#fff"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -1090.32, -23.08)" filter="url(#長方形_3539)">
+        <rect id="長方形_3539-2" data-name="長方形 3539" width="164" height="79" transform="translate(1090 103.08)" fill="#f5f5f5"/>
+      </g>
+      <text id="掲載の終期" transform="translate(29.676 46)" fill="#333" font-size="18" font-family="KozGoPro-Regular, Kozuka Gothic Pro"><tspan x="0" y="0">掲載の終期</tspan></text>
+      <text id="最終集客" transform="translate(41.676 113)" fill="#fb297a" font-size="18" font-family="KozGoPro-Medium, Kozuka Gothic Pro" font-weight="500"><tspan x="0" y="0">最終集客</tspan></text>
+      <text id="サポートします-3" data-name="サポートします" transform="translate(78.676 139)" fill="#333" font-size="14" font-family="KozGoPro-Medium, Kozuka Gothic Pro" font-weight="500"><tspan x="-49" y="0">サポートします</tspan></text>
+    </g>
+    <path id="多角形_6" data-name="多角形 6" d="M52,0l52,68.649H0Z" transform="translate(1590.149 4666.082) rotate(90)" fill="#fff"/>
+    <g id="グループ_2455" data-name="グループ 2455" transform="translate(1525.676 4629)">
+      <g id="グループ_2427" data-name="グループ 2427" transform="translate(0 0)">
+        <g id="グループ_2426" data-name="グループ 2426" transform="translate(29.268 0) rotate(11)">
+          <path id="パス_7039" data-name="パス 7039" d="M71.348,0l6.423,12.841L89.9,6.56l2.462,14.372,13.323-1.894-1.74,14.5,13.209,2.679-5.772,13.2,11.8,6.989-9.239,10.615,9.239,10.615-11.8,6.989,5.772,13.2L103.948,100.5l1.74,14.5L92.366,113.1,89.9,127.476,77.771,121.2l-6.423,12.841-9.755-10.053-9.755,10.053L45.415,121.2l-12.133,6.281L30.82,113.1,17.5,115l1.74-14.5L6.029,97.823l5.772-13.2L0,77.633,9.239,67.018,0,56.4l11.8-6.989-5.772-13.2,13.209-2.679-1.74-14.5L30.82,20.932,33.282,6.56l12.133,6.281L51.838,0l9.755,10.053Z" transform="matrix(0.985, 0.174, -0.174, 0.985, 23.275, 0)" fill="#fb297a"/>
+          <text id="Success_" data-name="Success!" transform="translate(32.748 83.349)" fill="#fff" font-size="19" font-family="MidashiGoPr6N-MB31, A-OTF Midashi Go MB31 Pr6N"><tspan x="0" y="0">Success!</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="長方形_4141" data-name="長方形 4141" transform="translate(415 4626)" fill="none" stroke="#8abcd7" stroke-width="5">
+      <rect width="366" height="186" stroke="none"/>
+      <rect x="2.5" y="2.5" width="361" height="181" fill="none"/>
+    </g>
+    <rect id="長方形_4142" data-name="長方形 4142" width="120" height="17" transform="translate(544 4618)" fill="#f5f5f5"/>
+    <g data-type="innerShadowGroup">
+      <text id="無料相談-2" data-name="無料相談" transform="translate(599 4633)" fill="#8abcd7" font-size="18" font-family="KozGoPro-Medium, Kozuka Gothic Pro" font-weight="500"><tspan x="-36" y="0">無料相談</tspan></text>
+      <g transform="matrix(1, 0, 0, 1, 240, 4617)" filter="url(#無料相談)">
+        <text id="無料相談-3" data-name="無料相談" transform="translate(359 16)" fill="#fff" font-size="18" font-family="KozGoPro-Medium, Kozuka Gothic Pro" font-weight="500"><tspan x="-36" y="0">無料相談</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
