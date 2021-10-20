@@ -407,4 +407,62 @@
 #faq .wrap h2{
     font-size: 4.2rem;
     margin-bottom: 6rem;
+    color: #1D2A56;
+}
+
+#faq .wrap .box{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 4rem;
+}
+
+#faq .wrap .box:nth-child(4){
+    margin-bottom: 8rem;
+}
+
+#faq .wrap .box .question{
+    background: #1D2A56;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: calc(100% - 4.5rem);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 16%);
+    margin-bottom: 1rem;
+    padding: 2rem 0 2rem 4.5rem;
+}
+
+#faq .wrap .box .answer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: calc(100% - 4.5rem);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 16%);
+    padding: 2rem 0 2rem 4.5rem;
+}
+
+#faq .wrap .box .question p{
+    color: white;
+}
+
+#faq .wrap .box .question p:first-child{
+    font-size: 4.2rem;
+    font-family: 900;
+    font-family: Hiragino Sans,'ヒラギノ角ゴシック';
+}
+
+#faq .wrap .box .question p:nth-child(2){
+    font-size: 2.5rem;
+    margin-left: 4.2rem;
+}
+
+#faq .wrap .box .answer p:first-child{
+    font-size: 4.2rem;
+    font-family: 900;
+    color: #8ABCD7;
+    font-family: Hiragino Sans,'ヒラギノ角ゴシック';
+}
+
+#faq .wrap .box .answer p:nth-child(2){
+    font-size: 2.5rem;
+    margin-left: 4.2rem;
 }
