@@ -239,3 +239,13 @@ footer .wrap .footer_right p{
     font-size: 1.6rem;
     color: white;
 }
+
+@media screen and (max-width: 767px) {
+    html{
+        font-size: 2.667vw;
+    }
+
+    header{
+        height: 5.5rem;
+    }
+}
