@@ -330,6 +330,7 @@
 #difference .wrap h2{
     font-size: 4.2rem;
     margin-bottom: 6.1rem;
+    color: #1D2A56;
 }
 
 #difference .wrap img{
@@ -465,4 +466,288 @@
 #faq .wrap .box .answer p:nth-child(2){
     font-size: 2.5rem;
     margin-left: 4.2rem;
+}
+
+/* news */
+
+#news{
+    padding: 9.5rem 0;
+    background: url("../img/news_bg.svg") no-repeat center center/cover;
+}
+
+#news .wrap{
+    width: 85%;
+    max-width: 1440px;
+    margin: auto;
+}
+
+#news .wrap h2{
+    font-size: 4.2rem;
+    margin-bottom: 6rem;
+    color: #1D2A56;
+}
+
+#news .wrap .news_list{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+#news .wrap .news_list .content{
+    height: 43.7rem;
+    width: 43.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#news .wrap .news_list .content div{
+    background: rgba(29, 42, 86, 80%);
+    height: 13.7rem;
+    width: 100%;
+}
+
+#news .wrap .news_list .content div p{
+    color: white;
+    margin-left: 3rem;
+    margin-top: 1.8rem;
+    line-height: 150%;
+}
+
+#news .wrap .news_list .content div p:first-child{
+    font-size: 1.6rem;
+}
+
+#news .wrap .news_list .content div p.content:nth-child(2){
+    font-size: 2rem;
+}
+
+#news .wrap .news_list .content:first-child{
+    background: url("../img/news0003.jpg") no-repeat center center/cover;
+}
+
+#news .wrap .news_list .content:nth-child(2){
+    background: url("../img/news0002.jpg") no-repeat center center/cover;
+}
+
+#news .wrap .news_list .content:nth-child(3){
+    background: url("../img/news0001.jpg") no-repeat center center/cover;
+}
+
+#news .wrap .more{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#news .wrap .more a{
+    font-size: 2rem;
+    border: .3rem solid #1D2A56;
+    color: #1D2A56;
+    padding: 1.7rem 5rem 1.7rem 3.7rem;
+    position: relative;
+    transition: all .3s ease-in-out;
+}
+
+#news .wrap .more a::before{
+    position: absolute;
+    content: "";
+    height: .3rem;
+    width: 7rem;
+    background: #1D2A56;
+    right: 50%;
+    margin-right: -50%;
+    transform: translate(75%, -50%);
+    top: 50%;
+    transition: all .3s ease-in-out;
+}
+
+#news .wrap .more a:hover{
+    color: white;
+    transition: all .3s ease-in-out;
+    background: #1D2A56;
+}
+
+#news .wrap .more a:hover::before{
+    right: 40%;
+    transition: all .2s ease-in-out;
+}
+
+/* contact */
+
+#contact{
+    padding: 9.5rem 0;
+    background: white;
+}
+
+#contact .wrap{
+    width: 85%;
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+#contact .wrap .left{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contact .wrap .left a, #contact .wrap .right a{
+    width: 57rem;
+    padding: 3.5rem 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 4.2rem;
+    position: relative;
+    transition: all .3s ease-in-out;
+}
+
+#contact .wrap .left a:hover,#contact .wrap .right a:hover{
+    transition: all .3s ease-in-out;
+}
+
+#contact .wrap .left a::before, #contact .wrap .right a::before,#contact .wrap .left a::after, #contact .wrap .right a::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    margin-right: -50%;
+    transform: translate(50%, -50%);
+    top: 50%;
+}
+
+#contact .wrap .left a::after, #contact .wrap .right a::after{
+    opacity: 0;
+    transition: all .3s ease-in-out;
+}
+
+#contact .wrap .left a p, #contact .wrap .right a p{
+    margin-right: 3.5rem;
+    font-family: Hiragino Sans,'ヒラギノ角ゴシック';
+    font-size: 3.5rem;
+    color: unset;
+}
+
+#contact .wrap .left .twitter{
+    border: .3rem solid #8ABCD7;
+    color: #8ABCD7;
+}
+
+#contact .wrap .left .twitter:hover{
+    background: #8ABCD7;
+    color: white;
+}
+
+#contact .wrap .left a:hover::after, #contact .wrap .right a:hover::after{
+    opacity: 1;
+    transition: all .3s ease-in-out;
+}
+
+#contact .wrap .left .twitter::before{
+    height: 3.944rem;
+    width: 4.733rem;
+    background: url("../img/twitter.svg") no-repeat center center/contain;
+}
+
+#contact .wrap .left .twitter::after{
+    height: 3.944rem;
+    width: 4.733rem;
+    background: url("../img/twitter_white.svg") no-repeat center center/contain;
+}
+
+#contact .wrap .left .facebook::before{
+    height: 4.459rem;
+    width: 4.459rem;
+    background: url("../img/facebook-2.svg") no-repeat center center/contain;
+}
+
+#contact .wrap .left .facebook::after{
+    height: 4.459rem;
+    width: 4.459rem;
+    background: url("../img/facebook_white.svg") no-repeat center center/contain;
+}
+
+#contact .wrap .left .insta::before{
+    height: 4.5rem;
+    width: 4.5rem;
+    background: url("../img/instagram.svg") no-repeat center center/contain;
+}
+
+#contact .wrap .left .insta::after{
+    height: 4.5rem;
+    width: 4.5rem;
+    background: url("../img/instagram_white.svg") no-repeat center center/contain;
+}
+
+#contact .wrap .left .facebook{
+    border: .3rem solid #0066CC;
+    color: #0066CC;
+}
+
+#contact .wrap .left .facebook:hover{
+    background: #0066CC;
+    color: white;
+}
+
+#contact .wrap .left .insta{
+    border: .3rem solid #DC3175;
+    color: #DC3175;
+}
+
+#contact .wrap .left .insta:hover{
+    background: #DC3175;
+    color: white;
+}
+
+#contact .wrap .right a{
+    border: .3rem solid #1D2A56;
+    color: #1D2A56;
+}
+
+#contact .wrap .right a:hover{
+    background: #1D2A56;
+    color: white;
+}
+
+#contact .wrap .right a::before{
+    height: 4.838rem;
+    width: 4.3rem;
+    background: url("../img/contact.svg") no-repeat center center/contain;
+}
+
+#contact .wrap .right a::after{
+    height: 4.838rem;
+    width: 4.3rem;
+    background: url("../img/contact_white.svg") no-repeat center center/contain;
+}
+
+#contact .wrap .right{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 50%;
+    flex-direction: column;
+}
+
+#contact .wrap .right div{
+    text-align: right;
+}
+
+#contact .wrap .right div h2{
+    font-size: 4.62rem;
+    font-family: Hiragino Sans,'ヒラギノ角ゴシック';
+    font-weight: 600;
+    color: #1D2A56;
+    margin-bottom: 5.38rem;
+}
+
+#contact .wrap .right div p{
+    font-size: 2.5rem;
 }
