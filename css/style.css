@@ -76,6 +76,11 @@
     color: #1D2A56;
 }
 
+#issue .wrap .issue_top div h2:nth-child(2){
+    font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+    color: #333333;
+}
+
 #issue .wrap .issue_top img{
     width: 26.05%;
 }
@@ -447,7 +452,6 @@
 
 #faq .wrap .box .question p:first-child{
     font-size: 4.2rem;
-    font-family: 900;
     font-family: Hiragino Sans,'ヒラギノ角ゴシック';
 }
 
@@ -458,7 +462,6 @@
 
 #faq .wrap .box .answer p:first-child{
     font-size: 4.2rem;
-    font-family: 900;
     color: #8ABCD7;
     font-family: Hiragino Sans,'ヒラギノ角ゴシック';
 }
@@ -750,4 +753,375 @@
 
 #contact .wrap .right div p{
     font-size: 2.5rem;
+}
+
+@media screen and (max-width: 767px) {
+    #kv{
+        height: 72.2rem;
+    }
+
+    #kv .wrap img{
+        height: 54.1rem;
+    }
+
+    #kv a{
+        font-size: 1.3rem;
+        right: 0;
+        left: unset;
+        bottom: 8rem;
+    }
+
+    #kv a::before{
+        width: 5.011rem;
+        right: -6rem;
+    }
+
+    #issue{
+        padding: 4.5rem 0;
+    }
+
+    #issue .wrap .issue_top{
+        flex-direction: column;
+        margin-bottom: 3rem;
+    }
+
+    #issue .wrap .issue_top div{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #issue .wrap .issue_top div h2{
+        font-size: 2.4rem;
+        margin-bottom: 3rem;
+        line-height: 150%;
+    }
+
+    #issue .wrap .issue_top div h2:first-child{
+        border-left: .8rem solid #1D2A56;
+        padding-left: 1.1rem;
+    }
+
+    #issue .wrap .issue_top div img{
+        width: 24.7rem;
+        margin-bottom: 3rem;
+    }
+
+    #issue .wrap .issue_bottom{
+        flex-direction: column;
+        margin-bottom: 3rem;
+    }
+
+    #issue .wrap .issue_bottom div{
+        width: 100%;
+        margin-bottom: 8rem;
+    }
+
+    #issue .wrap .issue_bottom div:nth-child(3){
+        margin-bottom: 0;
+    }
+
+    #issue .wrap .issue_bottom div img{
+        width: 85%;
+    }
+
+    #issue .wrap .issue_bottom div h3{
+        margin: 2rem 0;
+        font-size: 1.8rem;
+    }
+
+    #issue .wrap .issue_bottom div:first-child::before, #issue .wrap .issue_bottom div:nth-child(2)::before{
+        height: 3.384rem;
+        width: 7.1rem;
+        top: unset;
+        right: unset;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        bottom: -4rem;
+        background: url("../img/arrow_down.svg") no-repeat center center/contain;
+    }
+
+    #issue .wrap .issue_bottom div:nth-child(3)::before{
+        height: 11.94rem;
+        width: 12.049rem;
+        top: -2rem;
+        right: 0;
+    }
+
+    #feature{
+        padding: 4.5rem 0;
+    }
+
+    #feature .wrap .question{
+        width: 100%;
+        height: 12.4rem;
+        margin-bottom: 3rem;
+    }
+
+    #feature .wrap .question h2{
+        font-size: 2.2rem;
+        line-height: 150%;
+    }
+
+    #feature .wrap > h2{
+        font-size: 2.4rem;
+        margin-bottom: 3.2rem;
+    }
+
+    #feature .wrap .feature_list{
+        margin-top: 2.3rem;
+        flex-direction: column;
+    }
+
+    #feature .wrap .feature_list div{
+        width: 100%;
+        margin-bottom: 3.5rem;
+    }
+
+    #feature .wrap .feature_list div:nth-child(3){
+        margin-bottom: 0;
+    }
+
+    #feature .wrap .feature_list img{
+        width: 85%;
+    }
+
+    #feature .wrap .feature_list h3{
+        margin: 2rem 0;
+    }
+
+    #detail{
+        padding: 4.5rem 0;
+    }
+
+    #detail .wrap h2{
+        font-size: 2.4rem;
+        margin-bottom: 3rem;
+    }
+
+    #detail .wrap > p{
+        margin-bottom: 2rem;
+    }
+
+    #detail .wrap .inner{
+        flex-direction: column;
+        margin-bottom: 3rem;
+    }
+
+    #detail .wrap .inner div{
+        width: 100%;
+    }
+
+    #detail .wrap .inner div:first-child{
+        margin-bottom: 2rem;
+    }
+
+    #detail .wrap .inner div h3{
+        font-size: 1.8rem;
+    }
+
+    #detail .wrap .inner div ul{
+        margin: 2.6rem 0 2.6rem 5.4rem;
+    }
+
+    #detail .wrap .inner div ul li{
+        font-size: 1.4rem;
+    }
+
+    #detail .wrap .inner div p{
+        margin: 0 0 2.6rem 3.5rem;
+    }
+
+    #detail .wrap > img{
+        margin-bottom: 0;
+    }
+
+    #cost{
+        padding: 4.5rem 0;
+    }
+
+    #cost .wrap h2{
+        font-size: 2.4rem;
+        margin-bottom: 2.9rem;
+    }
+
+    #cost .wrap h2 span{
+        font-size: 1.4rem;
+        line-height: 1.4rem;
+    }
+
+    #cost .wrap img{
+        width: 100%;
+        margin-bottom: 3.45rem;
+    }
+
+    #cost .wrap p{
+        margin-bottom: 3.4rem;
+    }
+
+    #difference{
+        padding: 4.5rem 0;
+    }
+
+    #difference .wrap h2{
+        font-size: 2.2rem;
+        margin-bottom: 3.4rem;
+    }
+
+    #difference .wrap img{
+        margin: 2.72rem 0;
+        width: 100%;
+    }
+
+    #works{
+        padding: 4.5rem 0 9.2rem;
+    }
+
+    #works h2{
+        font-size: 2.4rem;
+        padding-bottom: 1.18rem;
+        margin-bottom: 2.82rem;
+    }
+
+    #works h2::before{
+        width: 12.288rem;
+    }
+
+    #works .slider img{
+        width: 28.8rem !important;
+    }
+
+    #works::before{
+        font-size: 4.615rem;
+    }
+
+    #faq{
+        padding: 4.5rem 0;
+    }
+
+    #faq .wrap h2{
+        font-size: 2.4rem;
+        margin-bottom: 3.6rem;
+    }
+
+    #faq .wrap .box{
+        width: 100%;
+    }
+
+    #faq .wrap .box .question{
+        padding: 1.8rem 0 1.8rem 1.4rem;
+        width: calc(100% - 1.4rem);
+    }
+
+    #faq .wrap .box .question p:first-child, #faq .wrap .box .answer p:first-child{
+        font-size: 2.3rem;
+    }
+
+    #faq .wrap .box .question p:nth-child(2){
+        font-size: 1.4rem;
+        margin-left: .96rem;
+    }
+
+    #faq .wrap .box .answer{
+        padding: 1.8rem 1.4rem;
+        width: calc(100% - 2.8rem);
+    }
+
+    #faq .wrap .box .answer p:nth-child(2){
+        font-size: 1.2rem;
+        margin-left: .96rem;
+    }
+
+    #faq .wrap .box:nth-child(4){
+        margin-bottom: 4.05rem;
+    }
+
+    #news{
+        padding: 4.5rem 0;
+    }
+
+    #news .wrap h2{
+        font-size: 2.4rem;
+        margin-bottom: 4rem;
+        text-align: center;
+    }
+
+    #news .wrap .news_list{
+        flex-direction: column;
+    }
+
+    #news .wrap .news_list .content{
+        height: 30.4rem;
+        width: 30.4rem;
+    }
+
+    #news .wrap .more{
+        justify-content: center;
+    }
+
+    #news .wrap .more a{
+        font-size: 1.8rem;
+        padding: 1.7rem 5rem 1.7rem 3.7rem;
+    }
+
+    #contact{
+        padding: 4.5rem 0;
+    }
+
+    #contact .wrap{
+        flex-direction: column-reverse;
+    }
+
+    #contact .wrap .right, #contact .wrap .left{
+        width: 100%;
+        align-items: center;
+    }
+
+    #contact .wrap .right div{
+        text-align: center;
+    }
+
+    #contact .wrap .right div h2{
+        margin-bottom: 1.3rem;
+        font-size: 2.4rem;
+    }
+
+    #contact .wrap .right div > p{
+        font-size: 1.4rem;
+        line-height: 100%;
+        margin-bottom: 1.3rem;
+    }
+
+    #contact .wrap .left a, #contact .wrap .right a{
+        width: 75%;
+        padding: 1.6rem 0;
+        margin-bottom: 1.9rem;
+    }
+
+    #contact .wrap .left a p, #contact .wrap .right a p{
+        font-size: 1.6rem;
+        margin-right: 1.5rem;
+    }
+
+    #contact .wrap .right a::after, #contact .wrap .right a::before{
+        height: 2.195rem;
+        width: 1.951rem;
+    }
+
+    #contact .wrap .left .twitter::before, #contact .wrap .left .twitter::after{
+        width: 2.147rem;
+        height: 1.789rem;
+    }
+
+    #contact .wrap .left .facebook::before, #contact .wrap .left .facebook::after{
+        width: 2.023rem;
+        height: 2.023rem;
+    }
+
+    #contact .wrap .left .insta::before, #contact .wrap .left .insta::after{
+        width: 2.041rem;
+        height: 2.041rem;
+    }
 }
