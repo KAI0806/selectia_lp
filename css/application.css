@@ -124,13 +124,14 @@ header .wrap .header_right nav ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 header .wrap .header_right nav ul li a{
     color: #1D2A56;
 }
 
-header .wrap .header_right div{
+header .wrap .header_right div:first-child{
     width: 35%;
     display: flex;
     justify-content: space-between;
@@ -141,6 +142,7 @@ header .wrap .header_right div a{
     color: white;
     padding: 1.2rem 2.4rem;
     border-radius: 1rem;
+    margin: 0 .45rem;
 }
 
 header .wrap .header_right div a:first-child{
@@ -408,10 +410,52 @@ footer .wrap .footer_right p{
     #nav .nav_wrap ul{
         flex-direction: column;
         align-items: flex-start;
+        transform: translateX(25%);
+        width: unset;
     }
 
     #nav .nav_wrap ul li{
         margin-bottom: 4.4rem;
+        position: relative;
+    }
+
+    #nav .nav_wrap ul li::before{
+        position: absolute;
+        content: "";
+        height: .1rem;
+        width: 5.848rem;
+        background: #1D2A56;
+        left: -5rem;
+        transform: translate(-50%, 50%);
+        top: 50%;
+    }
+
+    #nav .nav_wrap ul li::after{
+        position: absolute;
+        font-size: 1.2rem;
+        left: -10rem;
+        transform: translate(-50%, -50%);
+        top: 50%;
+    }
+
+    #nav .nav_wrap ul li:first-child::after{
+        content: "01";
+    }
+
+    #nav .nav_wrap ul li:nth-child(2)::after{
+        content: "02";
+    }
+
+    #nav .nav_wrap ul li:nth-child(3)::after{
+        content: "03";
+    }
+
+    #nav .nav_wrap ul li:nth-child(4)::after{
+        content: "04";
+    }
+
+    #nav .nav_wrap ul li:nth-child(5)::after{
+        content: "05";
     }
 
     #nav .nav_wrap ul li:nth-child(5){
@@ -428,6 +472,10 @@ footer .wrap .footer_right p{
     }
 
     header .wrap .header_right div{
+        width: 100%;
+    }
+
+    header .wrap .header_right div:first-child{
         width: 100%;
     }
 
