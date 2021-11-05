@@ -6,20 +6,11 @@
 }
 
 #kv .wrap{
-    display: flex;
     height: 100%;
-    justify-content: center;
-    align-items: center;
-    background-image: url("../img/kv_bg.svg");
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    z-index: -1;
 }
 
 #kv .wrap img{
-    height: 88.6rem;
+    width: 100%;
 }
 
 #kv a{
@@ -368,7 +359,7 @@
     font-size: 7rem;
     position: relative;
     text-align: center;
-    margin-bottom: 7.35rem;
+    margin-bottom: 3.85rem;
     padding-bottom: 2.05rem;
     color: white;
 }
@@ -385,12 +376,64 @@
     bottom: 0;
 }
 
+#works > p{
+    color: white;
+    text-align: center;
+    margin-bottom: 6rem;
+}
+
 #works .slider{
     width: 100%;
 }
 
 #works .slider img{
     margin: 0 .5%;
+}
+
+#works .content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#works .content img{
+    width: 64rem;
+}
+
+#works .content > div{
+    width: calc(64rem - 3.5rem);
+    background: white;
+    padding: 3.2rem 8rem 3rem;
+}
+
+#works .content > div h4{
+    font-size: 2.5rem;
+    padding-left: 2.4rem;
+    border-left: 2.1rem solid #1D2A56;
+    color: #1D2A56;
+    margin-left: -4.5rem;
+}
+
+#works .content > div > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#works .content > div > div > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+#works .content > div > div > p{
+    text-align: left;
+    font-size: 1.4rem;
+}
+
+#works .content > div > div > div > p{
+    font-size: 2.5rem;
 }
 
 /* faq */
@@ -755,13 +798,15 @@
     font-size: 2.5rem;
 }
 
+@media screen and (max-width: 1024px){
+    #works .content img{
+        width: 77rem;
+    }
+}
+
 @media screen and (max-width: 767px) {
     #kv{
         height: 72.2rem;
-    }
-
-    #kv .wrap img{
-        height: 54.1rem;
     }
 
     #kv a{
@@ -1006,6 +1051,7 @@
         display: flex;
         justify-content: space-around;
     }
+
     .slide-arrow{
         position: absolute;
         top: 50%;
@@ -1030,7 +1076,34 @@
     .next-arrow{
         right: 0rem;
     }
-    
+
+    #works .content{
+        flex-direction: column;
+    }
+
+    #works .content img{
+        width: 90%;
+    }
+
+    #works .content > div{
+        width: calc(74% - 6rem);
+        padding: 2.4rem 6rem 2.7rem;
+        margin-top: .6rem;
+    }
+
+    #works .content > div h4{
+        font-size: 1.6rem;
+        width: 112%;
+        margin-bottom: 3rem;
+    }
+
+    #works .content > div > div{
+        flex-direction: column;
+    }
+
+    #works .content > div > div > p{
+        font-size: 1.2rem;
+    }
 
     #faq{
         padding: 4.5rem 0;
@@ -1158,5 +1231,16 @@
     #contact .wrap .left .insta::before, #contact .wrap .left .insta::after{
         width: 2.041rem;
         height: 2.041rem;
+    }
+
+    #works .content > div > div > div{
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+    }
+
+    #works .content > div > div > div p{
+        font-size: 1.6rem;
+        margin-top: 3rem;
     }
 }
