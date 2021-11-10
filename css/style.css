@@ -1,21 +1,29 @@
 @charset "UTF-8";
 
 #kv{
-    height: 99.9rem;
+    height: 92.9rem;
     position: relative;
+    background: url("../img/kv_bg.jpg")no-repeat center center/cover;
 }
 
 #kv .wrap{
     height: 100%;
+    position: relative;
+    width: 75%;
+    margin: auto;
 }
 
 #kv .wrap img{
-    width: 100%;
+    width: 60.051rem;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
 }
 
 #kv a{
     position: absolute;
-    bottom: 10rem;
+    bottom: 12rem;
     left: 0;
     transform: rotateZ(90deg);
     font-size: 2.5rem;
@@ -805,8 +813,25 @@
 }
 
 @media screen and (max-width: 767px) {
+    main{
+        padding-top: 5.5rem;
+    }
+
     #kv{
-        height: 72.2rem;
+        height: 61.2rem;
+        background: url("../img/kv_bg_sp.jpg") no-repeat center center/cover;
+    }
+
+    #kv .wrap{
+        width: 100%;
+    }
+    
+    #kv .wrap img{
+        width: unset;
+        height: 100%;
+        top: 0;
+        left: 0;
+        transform: unset;
     }
 
     #kv a{
@@ -1242,5 +1267,17 @@
     #works .content > div > div > div p{
         font-size: 1.6rem;
         margin-top: 3rem;
+    }
+}
+
+@media screen and (max-width: 320px){
+    #kv{
+        height: 53.2rem;
+        background: url("../img/kv_bg_sp.jpg") no-repeat center right/contain;
+    }
+
+    #kv .wrap img{
+        left: 50%;
+        transform: translateX(-50%);
     }
 }
