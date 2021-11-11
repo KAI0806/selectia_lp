@@ -222,7 +222,7 @@ footer .wrap{
 
 footer .wrap .footer_left{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     width: 50%;
 }
