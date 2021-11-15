@@ -194,6 +194,7 @@
 #feature .wrap .feature_list h3{
     font-size: 2.5rem;
     margin: 3.9rem 0 1.5rem;
+    color: #1D2A56;
 }
 
 /* detail */
@@ -1063,6 +1064,10 @@
         font-size: 4.615rem;
     }
 
+    #works > p{
+        margin-bottom: 3.5rem;
+    }
+
     .slider{
         position: relative;
     }
@@ -1124,10 +1129,13 @@
 
     #works .content > div > div{
         flex-direction: column;
+        align-items: flex-start;
     }
 
     #works .content > div > div > p{
         font-size: 1.2rem;
+        margin-bottom: 1rem;
+        width: max-content;
     }
 
     #faq{
@@ -1266,7 +1274,7 @@
 
     #works .content > div > div > div p{
         font-size: 1.6rem;
-        margin-top: 3rem;
+        margin-top: 1rem;
     }
 }
 
