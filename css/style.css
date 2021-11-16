@@ -403,17 +403,20 @@
 #works .content{
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: stretch;
 }
 
 #works .content img{
-    width: 64rem;
+    width: 75rem;
 }
 
 #works .content > div{
-    width: calc(64rem - 3.5rem);
+    width: calc(75.3rem - 16rem);
     background: white;
-    padding: 3.2rem 8rem 3rem;
+    padding: 3.2rem 8rem 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #works .content > div h4{
@@ -437,13 +440,18 @@
     flex-direction: column;
 }
 
-#works .content > div > div > p{
+#works .content > div > div > div:first-child > p{
     text-align: left;
     font-size: 1.4rem;
 }
 
-#works .content > div > div > div > p{
+#works .content > div > div > div:nth-child(2) > p{
     font-size: 2.5rem;
+    line-height: 1.3;
+}
+
+#works .content > div > div > div:nth-child(2) > p:first-child{
+    margin-bottom: 3rem;
 }
 
 /* faq */
@@ -1036,7 +1044,7 @@
     }
 
     #cost .wrap h2 span{
-        font-size: 3rem;
+        font-size: 2.6rem;
         margin-bottom: 2.9rem;
         line-height: 1.8;
     }
@@ -1133,6 +1141,7 @@
 
     #works .content{
         flex-direction: column;
+        align-items: center;
     }
 
     #works .content img{
@@ -1140,15 +1149,18 @@
     }
 
     #works .content > div{
-        width: calc(74% - 6rem);
-        padding: 2.4rem 6rem 2.7rem;
+        width: 74%;
+        padding: 2.4rem 3rem 2.7rem;
         margin-top: .6rem;
     }
 
     #works .content > div h4{
         font-size: 1.6rem;
         width: 112%;
-        margin-bottom: 3rem;
+        margin-bottom: 1rem;
+        border-left: 1rem solid #1D2A56;
+        padding-left: 1rem;
+        margin-left: -1.5rem;
     }
 
     #works .content > div > div{
@@ -1156,10 +1168,17 @@
         align-items: flex-start;
     }
 
-    #works .content > div > div > p{
+    #works .content > div > div > div:first-child > p{
         font-size: 1.2rem;
-        margin-bottom: 1rem;
-        width: max-content;
+        line-height: 1.3;
+    }
+
+    #works .content > div > div > div:nth-child(2) > p{
+        font-size: 1.6rem;
+    }
+
+    #works .content > div > div > div:nth-child(2) > p:first-child{
+        margin-bottom: 0;
     }
 
     #faq{
@@ -1291,15 +1310,20 @@
         height: 2.041rem;
     }
 
-    #works .content > div > div > div{
+    #works .content > div > div > div:nth-child(2){
         flex-direction: row;
         width: 100%;
         align-items: center;
+        justify-content: flex-start;
     }
 
     #works .content > div > div > div p{
         font-size: 1.6rem;
         margin-top: 1rem;
+    }
+
+    #works .content > div > div > div:nth-child(2) > p:nth-child(2){
+        margin-left: 5rem;
     }
 }
 
