@@ -331,6 +331,7 @@ footer .wrap .footer_right p{
     .ctr div:hover a{
         top: -.05rem;
         left: -.06rem;
+        opacity: .5;
     }
     
     .ctr div:nth-child(2){
@@ -338,8 +339,8 @@ footer .wrap .footer_right p{
     }
     
     .ctr div a{
-        top: -.8rem;
-        left: -1.1rem;
+        top: -.05rem;
+        left: -.06rem;
         padding: 2.2rem 0;
         font-size: 1.8rem;
         width: 100.5%;
@@ -484,6 +485,7 @@ footer .wrap .footer_right p{
         border-radius: 0;
         width: 100%;
         padding: 2.2rem 0;
+        margin-left: .05rem;
     }
 
     header .wrap .header_right div .ctr div:nth-child(2) a{

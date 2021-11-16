@@ -295,15 +295,16 @@
 
 #cost .wrap h2{
     text-align: center;
-    font-size: 4.2rem;
-    color: #1D2A56;
-    line-height: 150%;
+    font-size: 2.5rem;
+    color: #8ABCD7;
+    line-height: 1.8;
     margin-bottom: 8rem;
 }
 
 #cost .wrap h2 span{
-    font-size: 2.5rem;
-    color: #8ABCD7;
+
+    font-size: 4.2rem;
+    color: #1D2A56;
 }
 
 #cost .wrap img{
@@ -823,6 +824,27 @@
         background: url("../img/kv_bg_sp.jpg") no-repeat center center/cover;
     }
 
+    #kv::before{
+        position: absolute;
+        content: "";
+        height: 4.406rem;
+        width: 33.566rem;
+        background: url("../img/kv_txt_top.svg") no-repeat center center/contain;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 2.52rem;
+    }
+
+    #kv::after{
+        position: absolute;
+        content: "";
+        width: 24.466rem;
+        height: 12.197rem;
+        left: 2.24rem;
+        bottom: 5.64rem;
+        background: url("../img/kv_txt_bottom.svg") no-repeat center center/contain;
+    }
+
     #kv .wrap{
         width: 100%;
     }
@@ -848,7 +870,7 @@
     }
 
     #issue{
-        padding: 4.5rem 0;
+        padding: 2.5rem 0;
     }
 
     #issue .wrap .issue_top{
@@ -866,7 +888,7 @@
 
     #issue .wrap .issue_top div h2{
         font-size: 2.4rem;
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
         line-height: 150%;
     }
 
@@ -895,7 +917,7 @@
     }
 
     #issue .wrap .issue_bottom div img{
-        width: 85%;
+        width: 80%;
     }
 
     #issue .wrap .issue_bottom div h3{
@@ -915,14 +937,14 @@
     }
 
     #issue .wrap .issue_bottom div:nth-child(3)::before{
-        height: 11.94rem;
+        height: 10.94rem;
         width: 12.049rem;
         top: -2rem;
         right: 0;
     }
 
     #feature{
-        padding: 4.5rem 0;
+        padding: 2.5rem 0;
     }
 
     #feature .wrap .question{
@@ -964,7 +986,7 @@
     }
 
     #detail{
-        padding: 4.5rem 0;
+        padding: 2.5rem 0;
     }
 
     #detail .wrap h2{
@@ -1010,17 +1032,19 @@
     }
 
     #cost{
-        padding: 4.5rem 0;
-    }
-
-    #cost .wrap h2{
-        font-size: 2.4rem;
-        margin-bottom: 2.9rem;
+        padding: 2.5rem 0;
     }
 
     #cost .wrap h2 span{
+        font-size: 3rem;
+        margin-bottom: 2.9rem;
+        line-height: 1.8;
+    }
+
+    #cost .wrap h2{
         font-size: 1.4rem;
-        line-height: 1.4rem;
+        line-height: 1.3;
+        margin-bottom: 2.5rem;
     }
 
     #cost .wrap img{
@@ -1033,7 +1057,7 @@
     }
 
     #difference{
-        padding: 4.5rem 0;
+        padding: 2.5rem 0;
     }
 
     #difference .wrap h2{
@@ -1047,13 +1071,13 @@
     }
 
     #works{
-        padding: 4.5rem 0 4.2rem;
+        padding: 2.5rem 0 4.2rem;
     }
 
     #works h2{
         font-size: 2.4rem;
         padding-bottom: 1.18rem;
-        margin-bottom: 2.82rem;
+        margin-bottom: 1.82rem;
     }
 
     #works h2::before{
@@ -1139,7 +1163,7 @@
     }
 
     #faq{
-        padding: 4.5rem 0;
+        padding: 2.5rem 0;
     }
 
     #faq .wrap h2{
@@ -1180,7 +1204,7 @@
     }
 
     #news{
-        padding: 4.5rem 0;
+        padding: 2.5rem 0;
     }
 
     #news .wrap h2{
@@ -1191,6 +1215,7 @@
 
     #news .wrap .news_list{
         flex-direction: column;
+        margin-bottom: 0;
     }
 
     #news .wrap .news_list .content{
@@ -1208,7 +1233,7 @@
     }
 
     #contact{
-        padding: 4.5rem 0;
+        padding: 2.5rem 0;
     }
 
     #contact .wrap{
