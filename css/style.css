@@ -910,6 +910,7 @@
         overflow: hidden;
         margin-bottom: 3rem;
         position: relative;
+        width: 118%;
     }
 
     #issue .wrap .issue_top div img{
