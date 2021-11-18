@@ -829,7 +829,7 @@
 
     #kv{
         height: 61.2rem;
-        background: url("../img/kv_bg_sp.jpg") no-repeat center top/cover;
+        background: url("../img/kv_bg_sp.jpg") no-repeat center -1rem/cover;
     }
 
     #kv::before{
@@ -840,7 +840,7 @@
         background: url("../img/kv_txt_top.svg") no-repeat center center/contain;
         left: 50%;
         transform: translateX(-50%);
-        top: 3.5rem;
+        top: 3rem;
     }
 
     #kv::after{
@@ -849,7 +849,7 @@
         width: 24.466rem;
         height: 12.197rem;
         left: 2.24rem;
-        bottom: 3.5rem;
+        bottom: 4rem;
         background: url("../img/kv_txt_bottom.svg") no-repeat center center/contain;
     }
 
