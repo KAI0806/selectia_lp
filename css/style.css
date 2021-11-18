@@ -916,8 +916,9 @@
     #issue .wrap .issue_top div img{
         position: absolute;
         width: 100%;
-        top: 50%;
+        top: 0;
         left: 0;
+        transform: translateY(2rem);
     }
 
     #issue .wrap .issue_bottom{
