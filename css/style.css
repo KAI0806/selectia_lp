@@ -75,13 +75,13 @@
     color: #1D2A56;
 }
 
-#issue .wrap .issue_top div h2:nth-child(2){
+#issue .wrap .issue_top div h2:nth-child(3){
     font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
     color: #333333;
 }
 
 #issue .wrap .issue_top img{
-    width: 26.05%;
+    width: 37.5rem;
 }
 
 #issue .wrap .issue_bottom{
@@ -905,9 +905,18 @@
         padding-left: 1.1rem;
     }
 
-    #issue .wrap .issue_top div img{
-        width: 24.7rem;
+    #issue .wrap .issue_top div div{
+        height: 12.4rem;
+        overflow: hidden;
         margin-bottom: 3rem;
+        position: relative;
+    }
+
+    #issue .wrap .issue_top div img{
+        position: absolute;
+        width: 100%;
+        top: 50%;
+        left: 0;
     }
 
     #issue .wrap .issue_bottom{

@@ -39,7 +39,11 @@
     <header>
         <div class="wrap">
             <div class="header_left">
-                <img src="img/header_logo.svg" alt="SELECTIA">
+                <a href="#kv"><img src="img/header_logo.svg" alt="SELECTIA"></a>
+                <h1 class="pc_only">
+                    <span>完全成果報酬型</span>
+                    <br/>クラウドファンディング代行サービス
+                </h1>
             </div>
 
             <div class="header_right">
@@ -96,11 +100,13 @@
                 <div class="issue_top">
                     <div>
                         <h2>クラウドファンディングの<br class="sp_only"/>サポートをしたい</h2>
-                        <img class="sp_only" src="img/more_success.png" alt="success">
+                        <div class="sp_only">
+                            <img id="more_success" src="img/more_success_sp.jpg" alt="success">
+                        </div>
                         <h2>「広告と掲載、<br class="sp_only"/><span class="sp_inline">　　　</span>全てお任せください」</h2>
                         <p>どんないい商品も広告が欠けるだけで、文言が欠けるだけで売れなくなってしまいます。Selectia (セレクティア) は「あなたの成功を大成功に」それを追求するからこそ、いかなる面でもサポートすることが出来るのです。貴社はよりよい商品をご用意するだけ、集客の全ては私たちにお任せてください。</p>
                     </div>
-                    <img class="pc_only" src="img/more_success.png" alt="success">
+                    <img class="pc_only" src="img/more_success.jpg" alt="success">
                 </div>
                 
                 <div class="issue_bottom">
@@ -466,5 +472,14 @@
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="js/menu.js"></script>
     <script src="js/slider.js"></script>
+
+    <script>
+        let more_success = document.getElementById('more_success');
+
+        window.addEventListener('scroll', function(){
+            let value = window.scrollY;
+            more_success.style.top = value * -0.1 + 'px';
+        })
+    </script>
 </body>
 </html>

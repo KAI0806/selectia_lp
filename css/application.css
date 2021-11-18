@@ -18,12 +18,12 @@ body, h1, h2, h3, h4, h5, p, ul{
 }
 
 h2{
-    font-weight: 300;
+    font-weight: medium;
     line-height: 100%;
 }
 
 h3{
-    font-weight: 300;
+    font-weight: medium;
     line-height: 100%;
 }
 
@@ -96,19 +96,35 @@ header .wrap > div{
 }
 
 header .wrap .header_left{
-    border-bottom: .7rem solid #8ABCD7;
+    border-bottom: .5rem solid #8ABCD7;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     padding-left: 2.5%;
 }
 
+header .wrap .header_left a{
+    border-right: .05rem solid #1D2A56;
+    padding-right: 2.67rem;
+    margin-right: 2.67rem;
+}
+
 header .wrap .header_left img{
     height: 4.536rem;
 }
 
+header .wrap .header_left h1{
+    font-size: 2rem;
+    font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+    line-height: 1.2;
+}
+
+header .wrap .header_left h1 span{
+    color: #FB297A;
+}
+
 header .wrap .header_right{
-    border-bottom: 7px solid #1D2A56;
+    border-bottom: .5rem solid #1D2A56;
     padding: 0 2.5%;
     display: flex;
     justify-content: space-between;
@@ -302,6 +318,12 @@ footer .wrap .footer_right p{
 
     header .wrap .header_left{
         padding-left: 0.94rem;
+    }
+
+    header .wrap .header_left a{
+        border-right:none;
+        padding-right: 0;
+        margin-right: 0;
     }
 
     header .wrap .header_left img{
